@@ -1,0 +1,51 @@
+#main {
+  padding: 32px;
+  border: outset rgba(247, 159, 121, 1) 1px;
+  border-radius: 4px;
+}
+
+#output-area{
+  min-height: 128px;
+  margin: 16px;
+  cursor: default;
+}
+
+#output{
+  font-size: 64px;
+  color: rgba(247, 159, 121, 1);
+}
+
+#input-area{
+  display: flex;
+}
+
+#input-area > * {
+  margin: 16px;
+}
+
+#input{
+  font-size: 32px;
+  border: inset rgba(247, 159, 121, 1) 1px;
+  border-radius: 4px;
+  padding: 2px;
+}
+
+#button{
+  background-color: rgba(247, 208, 138, 1);
+  border: outset rgba(247, 159, 121, 1) 1px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+#button:hover{
+  background-color: rgba(247, 159, 121, 1);
+  border-color: rgba(247, 208, 138, 1);
+  border-style: inset;
+}
+
+#button:active {
+  background-color: rgba(98, 191, 237, 1);
+  border: inset rgba(184, 216, 216, 1) 1px;
+  transition: none;
+}

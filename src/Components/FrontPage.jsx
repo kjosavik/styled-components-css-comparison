@@ -21,7 +21,7 @@ export default withTheme( props => (
         <Link href={'https://kodeworks.no'}>
           <Kodeworks src={kwLogo}/>
         </Link>
-        <Link href={'#'}>
+        <Link href={'https://medium.com/@erik.kjosavik/try-styled-components-in-your-next-react-project-849a9048eea6'}>
           <Medium src={mLogo} />
         </Link>
       </Right>
